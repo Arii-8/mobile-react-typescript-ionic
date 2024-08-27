@@ -1,0 +1,15 @@
+/* CSS untuk memastikan IonTabBar tetap di bagian bawah */
+ion-tab-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: white;
+  }
+  
+  /* Pastikan konten tidak overlap dengan IonTabBar */
+  ion-content {
+    --padding-bottom: 56px; /* Tambahkan padding bawah setara dengan tinggi tab bar */
+  }
+  
+  
